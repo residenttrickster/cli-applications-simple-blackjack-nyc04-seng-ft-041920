@@ -35,10 +35,11 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit? (prompt_user, get_user_input)
   # code hit? here
-  prompt_user
-  get_user_input
+  puts "#{prompt_user}"
+  puts "#{get_user_input}"
+  
 end
 
 def invalid_command
