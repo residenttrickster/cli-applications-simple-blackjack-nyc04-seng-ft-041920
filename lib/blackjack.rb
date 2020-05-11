@@ -5,11 +5,11 @@ end
 
 def deal_card
   # code #deal_card here
+    return rand(1..10)
 end
 
 def display_card_total(number)
   # code #display_card_total here
-  puts "Your cards add up to #{number}".
 end
 
 def prompt_user
