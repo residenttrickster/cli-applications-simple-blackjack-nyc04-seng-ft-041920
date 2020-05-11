@@ -15,6 +15,7 @@ end
 
 def prompt_user
   # code #prompt_user here
+  gets.chomp
 end
 
 def get_user_input
