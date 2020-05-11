@@ -41,9 +41,9 @@ def hit? (total)
   input = get_user_input
   if condition
   elsif condition
-  else 
+  else
   end
-  
+
 
 end
 
