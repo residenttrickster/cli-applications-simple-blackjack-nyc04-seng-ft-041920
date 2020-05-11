@@ -45,8 +45,8 @@ def hit? (total)
   elsif input == "s"
   else invalid_command
     hit?(total)
-  end 
-  puts total 
+  end
+  puts total
   end
 
 
