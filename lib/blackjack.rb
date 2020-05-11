@@ -46,7 +46,7 @@ def hit? (total)
   else invalid_command
     hit?(total)
   end
-  puts total
+  total
 end
 
 def invalid_command
