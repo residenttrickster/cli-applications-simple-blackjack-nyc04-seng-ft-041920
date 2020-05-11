@@ -47,9 +47,6 @@ def hit? (total)
     hit?(total)
   end
   puts total
-  end
-
-
 end
 
 def invalid_command
