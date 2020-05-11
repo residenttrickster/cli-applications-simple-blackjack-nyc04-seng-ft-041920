@@ -37,7 +37,7 @@ end
 
 def hit?
   # code hit? here
-  prompt_user 
+  prompt_user
   get_user_input
 end
 
