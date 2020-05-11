@@ -40,10 +40,10 @@ def hit?(total)
   prompt_user
   input = get_user_input
 
-  if input === "h"
+  if input == "h"
     num = deal_card
     total += num
-  elsif input === "s"
+  elsif input == "s"
   else
     invalid_command
     hit?(total)
@@ -62,4 +62,5 @@ end
 
 def runner
   # code runner here
+  
 end
